@@ -1,12 +1,5 @@
 .tela-inicial{
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
     position: relative;
-    width: 375px;
-    height: 812px;
-    background: radial-gradient(131.74% 72.11% at 14.13% 83.74%, rgba(28, 35, 79, 0.5) 0%, rgba(28, 35, 79, 0) 32.22%) , radial-gradient(60.67% 30.97% at 77.33% 13.55%, #1C234F 9.9%, #010817 53.65%);
-    border: 2px solid #364050;
-    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
