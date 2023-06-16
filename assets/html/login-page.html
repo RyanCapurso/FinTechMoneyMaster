@@ -4,39 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/geral.css">
+    <link rel="stylesheet" href="/assets/css/login-page.css">
     <title>MoneyMaster | Login</title>
 </head>
 <body>
-    <header>
-        <img src="" alt="">
-        <nav>
-            <p>Email</p>
-            <p>Phone</p>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Login</h1>
-            <div>
-                <div>
-                    <label for="">Email</label>
-                    <input type="text">
+    <div class="conteiner background">        
+        <main >
+            <section class="options">
+                <img src="/assets/img/Logo-incial.svg" alt="Logotipo do aplicativo MoneyMaster" class="logo-tipo-inicio">
+                <div class="opcoes-selecao">
+                    <p class="">Email</p>
+                    <p class="">Phone</p>
                 </div>
+            </section>
+            <section class="login-page">
+                <h1 class="titulo">Login</h1>
                 <div>
-                    <label for="">Senha</label>
-                    <input type="text">
+                    <div class="login-campo">
+                        <label for="" class="login-dados">Email</label>
+                        <input type="text" class="login-input">
+                    </div>
+                    <div class="login-campo">
+                        <label for="" class="login-dados">Senha</label>
+                        <input type="text" class="login-input">
+                    </div>
+                        <button class="bnt-entrar">Entrar</button>
+                        <p>Esqueceu sua senha?</p>
+                        <p>Entrar com</p>
+                    <div>
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <p>Não tem uma conta? <strong>cadastre-se</strong></p>
+                    </div>
                 </div>
-                    <button>Entrar</button>
-                    <p>Esqueceu sua senha?</p>
-                    <p>Entrar com</p>
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <p>Não tem uma conta? <strong>cadastre-se</strong></p>
-                </div>
-            </div>
-        </section>        
-    </main>
+            </section>        
+        </main>
+    </div>
 </body>
 </html>
