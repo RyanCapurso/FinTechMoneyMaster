@@ -3,6 +3,15 @@
     justify-content: center;
     
 }
+.fundo-opcoes, .fundo-opcao-escolhida{
+    background: #374151;
+    border-radius: 50px;
+
+}
+.fundo-opcao-escolhida{
+    background: #1F2937;
+    border-radius: 50px;
+}
 .logo-tipo-inicio{
     width: 50px;
     height: 50px;
@@ -34,7 +43,6 @@
     color: #374151;
 }
 .titulo{
-    padding: 3rem 0;
     font-size: 24px;
 
 }
@@ -49,14 +57,34 @@
     border: none;
     border-bottom: 0.1px solid #374151;
     color: #ffffff;
+    font-size: 16px;
+    
 }
 .bnt-entrar{
     box-sizing: border-box;
-    width: calc(375px - 10vw);
     height: 56px;
     background: transparent;
     color: #ffffff;
     font-size: 16px;
     border: 2px solid #454CED;
     border-radius: 8px;
+}
+.texto-{
+    font-size: 14px;
+    font-weight: 400;
+}
+.divisoria{
+    border: 1px solid #374151;
+    height: 0px;
+}
+.icons-acesso{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #374151;
+    border-radius: 8px;
+}
+.icons-tamanho{
+    width: 30px;
+    height: 30px;
 }
