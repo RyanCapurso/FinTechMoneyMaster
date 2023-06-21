@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/geral.css">
     <link rel="stylesheet" href="/assets/css/login-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <title>MoneyMaster | Login</title>
 </head>
-<body>
-    <div class="conteiner background">        
-        <main >
+<body>     
+     <!--
+     <main >
             <section class="options">
                 <img src="/assets/img/Logo-incial.svg" alt="Logotipo do aplicativo MoneyMaster" class="logo-tipo-inicio">
                 <div class="opcoes-selecao">
@@ -41,7 +43,52 @@
                     </div>
                 </div>
             </section>        
-        </main>
-    </div>
+     </main>
+     -->
+    <main class="background-conteudo" id="background-conteudo">
+     <div class=" d-flex flex-column bd-highlight">
+        <div class=" mr-auto ml-auto w-75 pt-4 justify-content-between align-items-center d-flex flex-row">
+            <img class=" align-self-start logo-tipo-inicio" src="/assets/img/Logo-incial.svg" alt="LogoTipo MoneyMaster">
+            <div class="p2 w-50 d-flex justify-content-end">
+                <div class="fundo-opcoes p5 d-flex justify-content-end">
+                    <p class="p-3 fundo-opcao-escolhida">Email</p>
+                    <p class="p-3">Phone</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="d-flex pt-5  justify-content-center flex-column bd-highlight mb-3">
+        <div class=" pt-5 mr-auto ml-auto w-75 d-flex " >
+            <h2 class="w-100  align-items-start font-weight-bold">Login</p>
+            <form class="pt-5" action="">
+                <label class = " login-dados texto- d-block" for="">Email</label>
+                <input class="login-input w-100" type="text">
+                <label class = " login-dados texto- pt-4 d-block" for="">Senha</label>
+                <input class="login-input w-100" type="text">
+            </form>
+            <button type="button" class="w-100 mt-4 btn bnt-entrar">Entrar</button>
+            <p class="texto- pt-3 d-flex justify-content-center">Esqueceu sua senha?</p>
+            <div class="d-flex pt-5  justify-content-center flex-column bd-highlight mb-3">
+                <div class="mr-auto ml-auto w-100 pt-4 justify-content-between align-items-center d-flex flex-row">
+                    <span class="w-100 divisoria "></span>
+                    <p class="texto- w-100 d-flex justify-content-center">Entrar com</p>
+                    <span class="w-100 divisoria"></span>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
+            <div class="p-2 ml-3 bd-highlight icons-acesso">
+                <img class="icons-tamanho" src="/assets/img/icon-facebook.png" alt="">
+            </div>
+            <div class="p-2 ml-3 bd-highlight icons-acesso">
+                <img class="icons-tamanho" src="/assets/img/icon-biometria.png" alt="">
+            </div>
+            <div class="p-2 ml-3 bd-highlight icons-acesso">
+                <img class="icons-tamanho" src="/assets/img/🦆 icon _Google Logo_.png" alt="">
+            </div>
+          </div>
+          <p class=" texto d-flex justify-content-center">Não tem uma conta?<strong class="pl-1"> Cadastre-se</strong></p>
+      </div>
+    </main>
 </body>
 </html>
